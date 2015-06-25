@@ -119,7 +119,7 @@ else:
 	multiplier = 20000
 
 if options.port:
-	port = int(port)
+	port = int(options.port)
 else:
 	port = 22
 
